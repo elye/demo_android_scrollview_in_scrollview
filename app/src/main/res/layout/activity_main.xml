@@ -1,0 +1,1095 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <com.elyeproj.demo_android_double_scrollview.MyFrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="#F00">
+
+            <ScrollView
+                    android:layout_width="250dp"
+                    android:layout_height="300dp"
+                    android:layout_gravity="center">
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                    <com.elyeproj.demo_android_double_scrollview.MyFrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:background="#FFF">
+
+                        <ScrollView
+                                android:layout_width="100dp"
+                                android:layout_height="125dp"
+                                android:layout_gravity="center">
+                            <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="125dp"
+                                    android:orientation="vertical">
+
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                            </LinearLayout>
+                        </ScrollView>
+
+                    </com.elyeproj.demo_android_double_scrollview.MyFrameLayout>
+                    <View android:layout_width="match_parent"
+                          android:layout_height="200dp"
+                          android:background="#AAA"/>
+                    <View android:layout_width="match_parent"
+                          android:layout_height="200dp"
+                          android:background="#000"/>
+
+                    <com.elyeproj.demo_android_double_scrollview.MyFrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:background="#FFF">
+
+                        <ScrollView
+                                android:layout_width="100dp"
+                                android:layout_height="125dp"
+                                android:layout_gravity="center">
+                            <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="125dp"
+                                    android:orientation="vertical">
+
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                            </LinearLayout>
+                        </ScrollView>
+
+                    </com.elyeproj.demo_android_double_scrollview.MyFrameLayout>
+                    <View android:layout_width="match_parent"
+                          android:layout_height="200dp"
+                          android:background="#AAA"/>
+                    <View android:layout_width="match_parent"
+                          android:layout_height="200dp"
+                          android:background="#000"/>
+
+                    <com.elyeproj.demo_android_double_scrollview.MyFrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:background="#FFF">
+
+                        <ScrollView
+                                android:layout_width="100dp"
+                                android:layout_height="125dp"
+                                android:layout_gravity="center">
+                            <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="125dp"
+                                    android:orientation="vertical">
+
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                            </LinearLayout>
+                        </ScrollView>
+
+                    </com.elyeproj.demo_android_double_scrollview.MyFrameLayout>
+                    <View android:layout_width="match_parent"
+                          android:layout_height="200dp"
+                          android:background="#AAA"/>
+                    <View android:layout_width="match_parent"
+                          android:layout_height="200dp"
+                          android:background="#000"/>
+
+                    <com.elyeproj.demo_android_double_scrollview.MyFrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:background="#FFF">
+
+                        <ScrollView
+                                android:layout_width="100dp"
+                                android:layout_height="125dp"
+                                android:layout_gravity="center">
+                            <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="125dp"
+                                    android:orientation="vertical">
+
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                            </LinearLayout>
+                        </ScrollView>
+
+                    </com.elyeproj.demo_android_double_scrollview.MyFrameLayout>
+                    <View android:layout_width="match_parent"
+                          android:layout_height="200dp"
+                          android:background="#AAA"/>
+                    <View android:layout_width="match_parent"
+                          android:layout_height="200dp"
+                          android:background="#000"/>
+                </LinearLayout>
+            </ScrollView>
+
+        </com.elyeproj.demo_android_double_scrollview.MyFrameLayout>
+        <com.elyeproj.demo_android_double_scrollview.MyFrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="#0F0"/>
+        <com.elyeproj.demo_android_double_scrollview.MyFrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="#00F"/>
+
+        <com.elyeproj.demo_android_double_scrollview.MyFrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="#F00">
+
+            <ScrollView
+                    android:layout_width="250dp"
+                    android:layout_height="300dp"
+                    android:layout_gravity="center">
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                    <com.elyeproj.demo_android_double_scrollview.MyFrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:background="#FFF">
+
+                        <ScrollView
+                                android:layout_width="100dp"
+                                android:layout_height="125dp"
+                                android:layout_gravity="center">
+                            <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="125dp"
+                                    android:orientation="vertical">
+
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                            </LinearLayout>
+                        </ScrollView>
+
+                    </com.elyeproj.demo_android_double_scrollview.MyFrameLayout>
+                    <View android:layout_width="match_parent"
+                          android:layout_height="200dp"
+                          android:background="#AAA"/>
+                    <View android:layout_width="match_parent"
+                          android:layout_height="200dp"
+                          android:background="#000"/>
+
+                    <com.elyeproj.demo_android_double_scrollview.MyFrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:background="#FFF">
+
+                        <ScrollView
+                                android:layout_width="100dp"
+                                android:layout_height="125dp"
+                                android:layout_gravity="center">
+                            <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="125dp"
+                                    android:orientation="vertical">
+
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                            </LinearLayout>
+                        </ScrollView>
+
+                    </com.elyeproj.demo_android_double_scrollview.MyFrameLayout>
+                    <View android:layout_width="match_parent"
+                          android:layout_height="200dp"
+                          android:background="#AAA"/>
+                    <View android:layout_width="match_parent"
+                          android:layout_height="200dp"
+                          android:background="#000"/>
+
+                    <com.elyeproj.demo_android_double_scrollview.MyFrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:background="#FFF">
+
+                        <ScrollView
+                                android:layout_width="100dp"
+                                android:layout_height="125dp"
+                                android:layout_gravity="center">
+                            <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="125dp"
+                                    android:orientation="vertical">
+
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                            </LinearLayout>
+                        </ScrollView>
+
+                    </com.elyeproj.demo_android_double_scrollview.MyFrameLayout>
+                    <View android:layout_width="match_parent"
+                          android:layout_height="200dp"
+                          android:background="#AAA"/>
+                    <View android:layout_width="match_parent"
+                          android:layout_height="200dp"
+                          android:background="#000"/>
+
+                    <com.elyeproj.demo_android_double_scrollview.MyFrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:background="#FFF">
+
+                        <ScrollView
+                                android:layout_width="100dp"
+                                android:layout_height="125dp"
+                                android:layout_gravity="center">
+                            <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="125dp"
+                                    android:orientation="vertical">
+
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                            </LinearLayout>
+                        </ScrollView>
+
+                    </com.elyeproj.demo_android_double_scrollview.MyFrameLayout>
+                    <View android:layout_width="match_parent"
+                          android:layout_height="200dp"
+                          android:background="#AAA"/>
+                    <View android:layout_width="match_parent"
+                          android:layout_height="200dp"
+                          android:background="#000"/>
+                </LinearLayout>
+            </ScrollView>
+
+        </com.elyeproj.demo_android_double_scrollview.MyFrameLayout>
+        <com.elyeproj.demo_android_double_scrollview.MyFrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="#0F0"/>
+        <com.elyeproj.demo_android_double_scrollview.MyFrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="#00F"/>
+
+        <com.elyeproj.demo_android_double_scrollview.MyFrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="#F00">
+
+            <ScrollView
+                    android:layout_width="250dp"
+                    android:layout_height="300dp"
+                    android:layout_gravity="center">
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                    <com.elyeproj.demo_android_double_scrollview.MyFrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:background="#FFF">
+
+                        <ScrollView
+                                android:layout_width="100dp"
+                                android:layout_height="125dp"
+                                android:layout_gravity="center">
+                            <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="125dp"
+                                    android:orientation="vertical">
+
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                            </LinearLayout>
+                        </ScrollView>
+
+                    </com.elyeproj.demo_android_double_scrollview.MyFrameLayout>
+                    <View android:layout_width="match_parent"
+                          android:layout_height="200dp"
+                          android:background="#AAA"/>
+                    <View android:layout_width="match_parent"
+                          android:layout_height="200dp"
+                          android:background="#000"/>
+
+                    <com.elyeproj.demo_android_double_scrollview.MyFrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:background="#FFF">
+
+                        <ScrollView
+                                android:layout_width="100dp"
+                                android:layout_height="125dp"
+                                android:layout_gravity="center">
+                            <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="125dp"
+                                    android:orientation="vertical">
+
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                            </LinearLayout>
+                        </ScrollView>
+
+                    </com.elyeproj.demo_android_double_scrollview.MyFrameLayout>
+                    <View android:layout_width="match_parent"
+                          android:layout_height="200dp"
+                          android:background="#AAA"/>
+                    <View android:layout_width="match_parent"
+                          android:layout_height="200dp"
+                          android:background="#000"/>
+
+                    <com.elyeproj.demo_android_double_scrollview.MyFrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:background="#FFF">
+
+                        <ScrollView
+                                android:layout_width="100dp"
+                                android:layout_height="125dp"
+                                android:layout_gravity="center">
+                            <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="125dp"
+                                    android:orientation="vertical">
+
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                            </LinearLayout>
+                        </ScrollView>
+
+                    </com.elyeproj.demo_android_double_scrollview.MyFrameLayout>
+                    <View android:layout_width="match_parent"
+                          android:layout_height="200dp"
+                          android:background="#AAA"/>
+                    <View android:layout_width="match_parent"
+                          android:layout_height="200dp"
+                          android:background="#000"/>
+
+                    <com.elyeproj.demo_android_double_scrollview.MyFrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:background="#FFF">
+
+                        <ScrollView
+                                android:layout_width="100dp"
+                                android:layout_height="125dp"
+                                android:layout_gravity="center">
+                            <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="125dp"
+                                    android:orientation="vertical">
+
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                            </LinearLayout>
+                        </ScrollView>
+
+                    </com.elyeproj.demo_android_double_scrollview.MyFrameLayout>
+                    <View android:layout_width="match_parent"
+                          android:layout_height="200dp"
+                          android:background="#AAA"/>
+                    <View android:layout_width="match_parent"
+                          android:layout_height="200dp"
+                          android:background="#000"/>
+                </LinearLayout>
+            </ScrollView>
+
+        </com.elyeproj.demo_android_double_scrollview.MyFrameLayout>
+        <com.elyeproj.demo_android_double_scrollview.MyFrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="#0F0"/>
+        <com.elyeproj.demo_android_double_scrollview.MyFrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="#00F"/>
+
+        <com.elyeproj.demo_android_double_scrollview.MyFrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="#F00">
+
+            <ScrollView
+                    android:layout_width="250dp"
+                    android:layout_height="300dp"
+                    android:layout_gravity="center">
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                    <com.elyeproj.demo_android_double_scrollview.MyFrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:background="#FFF">
+
+                        <ScrollView
+                                android:layout_width="100dp"
+                                android:layout_height="125dp"
+                                android:layout_gravity="center">
+                            <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="125dp"
+                                    android:orientation="vertical">
+
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                            </LinearLayout>
+                        </ScrollView>
+
+                    </com.elyeproj.demo_android_double_scrollview.MyFrameLayout>
+                    <View android:layout_width="match_parent"
+                          android:layout_height="200dp"
+                          android:background="#AAA"/>
+                    <View android:layout_width="match_parent"
+                          android:layout_height="200dp"
+                          android:background="#000"/>
+
+                    <com.elyeproj.demo_android_double_scrollview.MyFrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:background="#FFF">
+
+                        <ScrollView
+                                android:layout_width="100dp"
+                                android:layout_height="125dp"
+                                android:layout_gravity="center">
+                            <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="125dp"
+                                    android:orientation="vertical">
+
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                            </LinearLayout>
+                        </ScrollView>
+
+                    </com.elyeproj.demo_android_double_scrollview.MyFrameLayout>
+                    <View android:layout_width="match_parent"
+                          android:layout_height="200dp"
+                          android:background="#AAA"/>
+                    <View android:layout_width="match_parent"
+                          android:layout_height="200dp"
+                          android:background="#000"/>
+
+                    <com.elyeproj.demo_android_double_scrollview.MyFrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:background="#FFF">
+
+                        <ScrollView
+                                android:layout_width="100dp"
+                                android:layout_height="125dp"
+                                android:layout_gravity="center">
+                            <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="125dp"
+                                    android:orientation="vertical">
+
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                            </LinearLayout>
+                        </ScrollView>
+
+                    </com.elyeproj.demo_android_double_scrollview.MyFrameLayout>
+                    <View android:layout_width="match_parent"
+                          android:layout_height="200dp"
+                          android:background="#AAA"/>
+                    <View android:layout_width="match_parent"
+                          android:layout_height="200dp"
+                          android:background="#000"/>
+
+                    <com.elyeproj.demo_android_double_scrollview.MyFrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:background="#FFF">
+
+                        <ScrollView
+                                android:layout_width="100dp"
+                                android:layout_height="125dp"
+                                android:layout_gravity="center">
+                            <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="125dp"
+                                    android:orientation="vertical">
+
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#F00"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#0F0"/>
+                                <View android:layout_width="match_parent"
+                                      android:layout_height="75dp"
+                                      android:background="#00F"/>
+                            </LinearLayout>
+                        </ScrollView>
+
+                    </com.elyeproj.demo_android_double_scrollview.MyFrameLayout>
+                    <View android:layout_width="match_parent"
+                          android:layout_height="200dp"
+                          android:background="#AAA"/>
+                    <View android:layout_width="match_parent"
+                          android:layout_height="200dp"
+                          android:background="#000"/>
+                </LinearLayout>
+            </ScrollView>
+
+        </com.elyeproj.demo_android_double_scrollview.MyFrameLayout>
+        <com.elyeproj.demo_android_double_scrollview.MyFrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="#0F0"/>
+        <com.elyeproj.demo_android_double_scrollview.MyFrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="#00F"/>
+    </LinearLayout>
+
+</ScrollView>
